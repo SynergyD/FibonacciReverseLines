@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ReverseFibonacciLines.Extensions;
 using ReverseFibonacciLines.Models.Interfaces;
 using ReverseFibonacciLines.Services.Interfaces;
 
@@ -8,7 +9,7 @@ namespace ReverseFibonacciLines.Models
 {
     public class FileWorker : IFileWorker
     {
-        public Encoding Encoding { get; set; } = Encoding.ASCII;
+        public Encoding Encoding { get; set; } = Encoding.UTF8;
 
         private readonly IFileService fileService;
         private readonly ISequence sequence;
@@ -60,7 +61,7 @@ namespace ReverseFibonacciLines.Models
             {
                 do
                 {
-                    streamWriter.WriteLine(lines[currentLine]);
+                    streamWriter.WriteLine(lines[currentLine].Reverse());
                     currentLine++;
                 } 
                 while (currentLine < lines.Length);

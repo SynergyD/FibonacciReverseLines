@@ -24,7 +24,7 @@ namespace ReverseFibonacciLines
             try
             {
                 var linesFromFile = fileWorker.GetFibonacciLines(sourcePath);
-                fileWorker.FillFileByReverseLines(linesFromFile, "/Users/antonkalasnikov/Desktop/result.txt");
+                fileWorker.FillFileByReverseLines(linesFromFile);
                 ui.DisplayMessage(TextMessages.CHECKRESULT);
             }
             catch (FileNotFoundException e)
