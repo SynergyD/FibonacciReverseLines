@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseFibonacciLines", "ReverseFibonacciLines\ReverseFibonacciLines.csproj", "{36731F26-3B1D-4655-9A62-A72C20BEB983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseFibonacciLinesTests", "ReverseFibonacciLinesTests\ReverseFibonacciLinesTests.csproj", "{07D9790E-B6E4-4605-982D-CE3BFB9A9C9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36731F26-3B1D-4655-9A62-A72C20BEB983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36731F26-3B1D-4655-9A62-A72C20BEB983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36731F26-3B1D-4655-9A62-A72C20BEB983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36731F26-3B1D-4655-9A62-A72C20BEB983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D9790E-B6E4-4605-982D-CE3BFB9A9C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D9790E-B6E4-4605-982D-CE3BFB9A9C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D9790E-B6E4-4605-982D-CE3BFB9A9C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D9790E-B6E4-4605-982D-CE3BFB9A9C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
